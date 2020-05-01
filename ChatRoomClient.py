@@ -23,7 +23,7 @@ clientSocket.sendto(str.encode("!Join"), server_address)
 
 
 
-#This is the function that runs on thread one, it recieves UDP packets from the server and prints them
+#This is the function that runs on thread one, it recieves UDP packets from the server and prints them.
 #When a user inputs the quit signal it will end the thread once the server sends an acknowledgement that the user inputed
 #the quit signal
 def recvAndPrint(serverSocket,quit):
